@@ -14,7 +14,7 @@ class ColorAdapter(private val colorList: List<ColorItem>) : RecyclerView.Adapte
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ColorViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.table, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_color, parent, false)
         return ColorViewHolder(view)
     }
 
